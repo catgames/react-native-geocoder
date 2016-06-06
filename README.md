@@ -12,11 +12,27 @@ npm install --save react-native-geocoder
 ```
 ## iOS
 
+#### Option: With [`rnpm`](https://github.com/rnpm/rnpm)
+
+`$ rnpm link react-native-geocoder`
+
+
+#### Option: Manually
 1. In the XCode's "Project navigator", right click on Libraries folder under your project ➜ `Add Files to <...>`
 2. Go to `node_modules` ➜ `react-native-geocoder` and add `ios/RNGeocoder.xcodeproj` file
 3. Add libRNGeocoder.a to "Build Phases" -> "Link Binary With Libraries"
 
+
 ## Android
+
+#### Option: With [`rnpm`](https://github.com/rnpm/rnpm)
+
+`$ rnpm link react-native-geocoder`
+
+
+
+#### Option: Manually
+
 1. In `android/setting.gradle`
 
 ```gradle
